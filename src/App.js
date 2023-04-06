@@ -17,7 +17,7 @@ function App() {
   const [updateData, setUpdateData] = useState('');
 
   // Add task 
-  ///////////////////////////
+  
   const addTask = () => {
     if(newTask) {
       let num = toDo.length + 1; 
@@ -76,7 +76,8 @@ function App() {
     <div className="container App">
 
     <br /><br />
-    <h2>To Do List App (ReactJS)</h2>
+    <h1>Welcome to my space</h1>
+    <h2>To-Do App</h2>
     <br /><br />
 
     {updateData && updateData ? (
